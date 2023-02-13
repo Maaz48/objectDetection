@@ -16,4 +16,4 @@ def query_example():
 
 if __name__ == '__main__':
     # run app in debug mode on port 5000
-    app.run(debug=False,port=5000, host='0.0.0.0')
+    app.run(debug=False,port="https://objectdetection-production-306e.up.railway.app/", host='0.0.0.0')
